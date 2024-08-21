@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 220, 171);
+  }
+  
+  .main {
+    background-color: #f2f2f2;
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    border: 1px solid #c7c6c6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    border: 1px solid #c7c6c6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  input,
+  textarea {
+    padding: 5px;
+  }
+  .form-group {
+    padding: 5px;
+  }
+  .fname,
+  .lname,
+  #address,
+  .pincode,
+  #state,
+  #country {
+    width: 50%;
+  }
+  
+  button {
+    width: 50%;
+    padding: 5px;
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(70, 175, 70);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+  }
+  button:hover {
+    background-color: green;
+    font-size: large;
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  th {
+    padding: 5px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  .table{
+      width: 100%;
+  }
