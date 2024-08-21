@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("submit").addEventListener("click", function (event) {
         event.preventDefault();
 
-        // Get form values
+        
         const fname = document.getElementById("first-name").value;
         const lname = document.getElementById("last-name").value;
         const address = document.getElementById("address").value;
         const pincode = document.getElementById("pincode").value;
         const gender = document.querySelector('input[name="gender"]:checked').value;
         var checkboxes = document.getElementsByClassName('food');
-        //Multiple values get
+        
         const checkedValue = [];
         for (let i = 0; i < checkboxes.length; i++) {
             if (checkboxes[i].checked) {
@@ -35,9 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function myFunction(fname, lname, address, pincode, gender, checkedValue, state, country) {
     const table = document.getElementById("myTable");
-    let row = table.insertRow(1);        // insertRow() method creates an empty <tr> element and adds it to a table,inserts the new row(s) at the specified index in the table.
-
-    let cell1 = row.insertCell(0);       //insertCell() method inserts a cell into the current row.
+    let row = table.insertRow(1);        
+    let cell1 = row.insertCell(0);      
     let cell2 = row.insertCell(1);
     let cell3 = row.insertCell(2);
     let cell4 = row.insertCell(3);
